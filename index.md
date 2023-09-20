@@ -95,21 +95,21 @@ $$
 Now, isolate μk:
 
 $$
-\sum_{n}(rnk)(\mu_k) = \sum_{n}(rnk)(x_n)
+\sum_{n}(rnk)(\mu_k) = \sum_{n}(rnk)(x_n)
 $$
 
 
 Divide both sides by Σn(rnk):
 
 $$
-\mu_k = \frac{\sum_{n}(rnk)(x_n)}{\sum_{n}(rnk)}
+\mu_k = \frac{\sum_{n}(rnk)(x_n)}{\sum_{n}(rnk)}
 $$
 
 
 And this is exactly what we wanted to prove. The cluster center μk is given by:
 
 $$
-\mu_k = \frac{\sum_{n}(rnk)(x_n)}{\sum_{n}(rnk)}
+\mu_k = \frac{\sum_{n}(rnk)(x_n)}{\sum_{n}(rnk)}
 $$
 So, by minimizing the distortion function using the squared Euclidean distance, we indeed obtain μk as the center of the k-th cluster.
 
@@ -153,7 +153,7 @@ For an English major, you might fall into one box the coding coefficient is larg
 
 Think of a red guy who is doing fitting for himself from a data set that accounts for the blue guy and green guy: **Y_red=a0Y_blue+a1Y_green**
 
-<img src="C:\Users\zuans\Desktop\CS-learner-track\assets\d5ef491d3c48096d48c534a7a21d74f.jpg" alt="d5ef491d3c48096d48c534a7a21d74f" style="zoom:20%;" />
+**<img src="C:\Users\zuans\Desktop\CS-learner-track\assets\d5ef491d3c48096d48c534a7a21d74f-1695246398878-2.jpg" alt="d5ef491d3c48096d48c534a7a21d74f" style="zoom:15%;" />**
 
 The branch separates different features of blue and green guys by setting criteria. the green guy takes up more boxes because of the similarity to the red guy. Eventually, each leaf contains a value Y_red=c, and we cluster the values.
 
